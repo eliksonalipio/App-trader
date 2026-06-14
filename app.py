@@ -119,7 +119,4 @@ if uploaded_file is not None:
                         
                 except Exception as e:
                     st.error(f"Erro ao processar a imagem com a IA: {e}")
-            else:
-                st.warning("⚠️ Para a IA ler a foto, você precisa colocar sua chave de API gratuita do Google (Gemini) na linha 14 do código.")
-        else:
-            st.error("Não foi possível conectar aos dados em tempo real para validar a foto.")
+         
