@@ -13,7 +13,6 @@ st.subheader("Envie a foto do gráfico e receba a ordem calculada para 1-2 minut
 # CONFIGURAÇÃO DA CHAVE DA IA (Gratuita no Google AI Studio)
 # Para testar, você pode colar sua chave direto aqui ou usar os Secrets do Streamlit
 GOOGLE_API_KEY = "AQ.Ab8RN6JaY4pr0D4CwozoRaWntLIJoklEqyZ2Anajad8C8mCzpw" 
-if GOOGLE_API_KEY != "SUA_API_KEY_AQUI":
     genai.configure(api_key=GOOGLE_API_KEY)
 
 # Inicializa o motor de dados de mercado
